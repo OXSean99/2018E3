@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	background:#CCC;
+	background:url(images/HALO.jpg) 13px;
+	}
+#container{
+	width:1000px;
+	height:9500px;
+	background:#fff;
+	margin:0 auto;
+	}
+#container #header{
+	width:1000px;
+	height:160px;
+	background:#FFF;
+	font-size:43px;
+	}
+#container #introduction{
+	margin:20px 150px;
+	width:850px;
+	height:100px;
+	background:#FFF;}
+#container .side{
+	width:150px;
+	height:2500px;
+	margin:5px;
+	background:#FFF;
+	float:left;
+}
+#container .side ul{
+	background:#FFF; }
+#container .side ul li{
+	margin:5px;
+	list-style:none;
+	background:#FFF; 
+	}
+#container .side a{
+	text-decoration:none;
+	background:#FFF; 
+	color:#66F;}
+
+#container .main{
+	width:835px;
+	height:9150px;
+	background:#FFF;
+	float:left;
+	border:1px solid;
+}
+.EA{
+    background:#FFF;
+	width:810px;
+	height:930px;
+	margin:0 10px;
+	border-bottom:1px solid;
+}
+.Microsoft{
+	background:#FFF;
+	width:810px;
+	height:930px;
+	margin:0 10px;
+	border-bottom:1px solid;
+}
+.Bethesda{
+	background:#FFF;
+	width:810px;
+	height:500px;
+	margin:0 10px;
+	border-bottom:1px solid;
+	}
+.SQUAREENIX{
+	background:#FFF;
+	width:810px;
+	height:930px;
+	margin:0 10px;
+	border-bottom:1px solid;
+}
+.Ubisoft{
+	background:#FFF;
+	width:810px;
+	height:930px;
+	margin:0 10px;
+	border-bottom:1px solid;
+	}
+.SONY{
+	background:#FFF;
+	width:810px;
+	height:1380px;
+	margin:0 10px;
+	border-bottom:1px solid;
+	}
+.Nentindo
+{
+	background:#FFF;
+	width:810px;
+	height:950px;
+	margin:0 10px;
+	border-bottom:1px solid;
+	}
+.E3
+{
+	background:#FFF;
+	width:810px;
+	height:950px;
+	margin:0 10px;
+	}

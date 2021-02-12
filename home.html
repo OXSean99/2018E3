@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Electronic Entertainment Expo</title>
+<link rel="stylesheet" type="text/css" href="home css.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script><script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(e) {
+    $(".dropdown").hover(function(){
+		$(".dropdown-menu").stop(true,true).slideDown();
+			
+	},function(){
+		$(".dropdown-menu").stop(true,true).slideUp();
+	});
+	
+	$(".app").hover(function(){
+		$(".app img").stop(true,true).fadeIn();
+	},function(){
+		$(".app img").stop(true,true).fadeOut();
+	});
+});
+</script></head>
+
+<body>
+<div id="container">
+<div id="header"><img src="images/e3标志.jpg" width="140" height="160">
+Electronic Entertainment Expo电子娱乐展览
+</div>
+<div id="introduction">
+简介：Electronic Entertainment Expo/Exposition，常被写作E3。
+<br>是世界上电子游戏界最大的年度商业化展览，也是第一大的游戏大会。
+<br>电子游戏的开发者会在展会上展示他们即将上市的游戏，或者发布即将面世的硬件产品。
+</div>
+<div class="side">
+<span class="dropdown"> <a  href="#" id="dropdownMenu1" data-toggle="dropdown">参展厂商 ▼</a>
+<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+<li title="Electronic Arts 美国艺电公司"><a href="Electronic Arts.html" target="_blank">EA</a></li>
+<li title="微软"><a href="Microsoft.html" target="_blank">Microsoft</a></li>
+<li title="贝塞斯达，美国游戏发行商"><a href="Bethesda.html" target="_blank">Bethesda</a></li>
+<li title="史克威尔艾尼克斯，日本游戏制作厂商"><a href="SQUARE ENIX.html" target="_blank">SQUARE ENIX</a></li>
+<li title="育碧娱乐软件公司 "><a href="Ubisoft.html" target="_blank">Ubisoft</a></li>
+<li title="索尼"><a href="SONY.html" target="_blank">SONY</a></li>
+<li title="任天堂，全球知名的日本娱乐厂商"><a href="Nentindo.html" target="_blank">Nentindo</a></li>
+</ul>
+</span>
+</div>
+<div class="main">部分发布会前瞻
+<div class="EA">Electronic Arts发布会：
+<img src="images/battlefieldV.jpg" width="810" height="426">BATTLEFIELD V(战地V)
+<img src="images/anthem.jpg" width="810" height="426">ANTHEM （圣歌）
+</div>
+<div class="Microsoft">Microsoft发布会：
+<img src="images/HALO INFINITE.jpg" width="810" height="426">HALO INFINITE (光环:无限)
+<img src="images/horizon4.jpg" width="810" height="426"> FORZA HORIZON4 （极限竞速-地平线4）
+</div>
+<div class="Bethesda">Bethesda发布会:
+<img src="images/fallout76.jpg" width="810" height="426">Fallout76 (辐射76)
+</div>
+<div class="SQUAREENIX">SQUARE ENIX发布会:
+<img src="images/kingdom hearts.jpg" width="810" height="426">Kingdom Hearts3 （王国之心3）
+<img src="images/Shadow Of The Tomb Raider.jpg" width="810" height="426">Shadow Of The Tomb Raider （古墓丽影：暗影）
+</div>
+<div class="Ubisoft">Ubisoft发布会:
+<img src="images/ASSASSIN'S CREED ODYSSEY.png" width="810" height="426">ASSASSIN'S CREED ODYSSEY （刺客信条：奥德赛）
+<img src="images/Beyond Good And Evil 2.jpg" width="810" height="426">Beyond Good And Evil （超越善恶2）
+</div>
+<div class="SONY">SONY发布会：
+<img src="images/THE LAST OF US PARTII.png" width="810" height="426">THE LAST OF US PARTII （最后的生还者2）
+<img src="images/DEATH STRANDING.jpg" width="810" height="426">DEATH STRANDING （死亡搁浅）
+<img src="images/Spiderman.jpg" width="810" height="426">Spiderman （蜘蛛侠）
+</div>
+<div class="Nentindo">Nentindo发布会：
+<img src="images/Pokemon Let's Go! .jpg" width="810" height="450">Pokemon Let's Go! （精灵宝可梦 Let's Go）
+<img src="images/SUPER SMASH BROS.jpg" width="810" height="426">SUPER SMASH BROS （任天堂全明星大乱斗）
+</div>
+<div class="E3">E3各种时间总结：
+<img src="images/E3时间总结.jpg" width="810" height="2500">
+</div>
+</div>
+</body>
+</html>
